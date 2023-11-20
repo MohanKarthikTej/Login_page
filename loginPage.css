@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Caveat&family=Cinzel:wght@500&family=Libre+Caslon+Text&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('WhatsApp\ Image\ 2023-11-20\ at\ 23.52.57.jpeg');
+    background-size: 100% 100vh;
+}
+h1{
+font-family: 'cinzel', sans-serif;
+font-size: 50px;
+padding-left: 35%;
+margin-top: 7%;
+color: yellow;
+letter-spacing: 4px;
+}
+.mainbox{
+display: flex;
+flex-direction: column;
+height: 60vh;
+width: 30%;
+justify-content: center;
+align-items: center;
+margin-left: 35%;
+row-gap: 35px;
+border: 2px solid yellow;
+margin-top: 20px;
+border-radius: 20px;
+}
+.email,.paswrd{
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 3px solid yellow;    
+    color: black;
+    background-color: aqua  ;
+    text-align: center;
+    font-family: 'Libre Caslon Text',sans-serif;
+}
+.forgot{
+    margin-left: 150px;
+    font-size: 18px;
+    color: rgb(162, 255, 0);
+
+    
+}
+.forgot:hover{
+    color: yellow;
+}
+.login_btn{
+    height: 55px;
+    width: 120px;
+    border-radius: 35px;
+    font-size: 25px;
+    font-family: 'Agbalumo', sans-serif;
+    font-weight: 400;
+    padding-bottom: 8px;
+    border:2px solid blue ;
+    background-color: white;
+    cursor: pointer;
+}
+.login_btn:hover{
+    border:2px solid rgb(225, 255, 0) ;
+    background-color: rgb(144, 174, 238);
+    color: white;
+}
+
